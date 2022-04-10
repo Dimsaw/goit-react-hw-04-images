@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import s from './Modal.module.css';
 
-const modalRoot = document.querySelector('#modal-root');
+const modalRoot = document.querySelector('#root-modal');
 
 export default function Modal({ children, onClose }) {
   useEffect(() => {
